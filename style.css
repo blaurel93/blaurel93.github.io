@@ -1,4 +1,190 @@
-h1 {
-    color: red;
-    font-size: 48px;
+/*-- HEADER --*/
+header {
+    background: #ffffff;
+    padding: 0px;
+    float: left;
+    width: 720px;
+    margin-left: 120px;
+
+}
+#blaise {
+    background: #4aaaa5;
+    color: white;
+    float: left;
+    width: 13%;
+    padding: 20px;
+    text-align: center;
+    
+}
+a {
+    color: #777777;
+    text-decoration: none;
+}
+#port {
+    color: #777777;
+    text-decoration-line: none;
+    float: right;
+    
+    width: 10%;
+    text-align: left;
+    padding:10px;
+    margin-top: 10px;
+}
+#contact {
+    color: #777777;
+    text-decoration-line: none;
+    float: right;
+    
+    width: 10%;
+    text-align: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+#about {
+    color: #777777;
+    text-decoration: none;
+    
+    float: right;
+    width:10%;
+    text-align: right;
+    padding: 10px;
+    margin-top: 10px;
+}
+/*-- HEADER --*/
+/*-- MAINBOX --*/
+body {
+    float: middle;
+    margin-bottom: 1px;
+}
+#mainbox {
+    clear: both;
+    overflow: auto;
+    border-color: #dddddd;
+    float: left;
+    width: 960px;
+    height: 600px;
+    margin-bottom: 10px;
+    
+    
+}
+#secondbox {
+    background: #ffffff;
+    margin-top: 30px;
+    margin-left:120px;
+    float: left;
+    width: 75%;
+    height: 530px;
+    
+
+}
+.greyline {
+    background: #777777;
+    padding: 1px;
+    width: 97%;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.myname {
+    color: #4aaaa5;
+    text-decoration: none;
+    margin-left: 10px;
+}
+#pictureofme {
+    float: left;
+    margin: 10px;
+}
+p { 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+/*-- MAINBOX --*/
+/*-- FOOTER --*/
+#littleblue {
+    background: #4aaaa5;
+    padding: 2px;
+    clear: both;
+    overflow: auto;
+}
+#thickgrey {
+    background: #666666;
+    padding: 1px;
+    text-align: center;
+    color: white;
+}
+/*-- FOOTER --*/
+
+/*-- CONTACT PAGE --*/
+.buttons {
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+/*-- CONTACT PAGE --*/
+
+/*-- PORTFOLIO PAGE --*/
+#portfoliobox {
+    background: white;
+    padding: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 430px;
+}
+.portboxone {
+    background-image: url(https://images.pexels.com/photos/1122868/pexels-photo-1122868.jpeg?cs=srgb&dl=action-adult-adventure-1122868.jpg&fm=jpg); 
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 170px;
+    width: 170px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+.portboxtwo {
+    background-image: url(https://images.pexels.com/photos/1040157/pexels-photo-1040157.jpeg?cs=srgb&dl=board-game-businessman-challenge-1040157.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 170px;
+    width: 170px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+.portboxthree {
+    background-image: url(https://images.pexels.com/photos/277052/pexels-photo-277052.jpeg?cs=srgb&dl=board-game-challenge-chess-277052.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 170px;
+    width: 170px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+.portboxfour {
+    background-image: url(https://images.pexels.com/photos/2265487/pexels-photo-2265487.jpeg?cs=srgb&dl=app-apple-business-2265487.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 170px;
+    width: 170px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+.portboxfive {
+    background-image: url(https://images.pexels.com/photos/635356/pexels-photo-635356.jpeg?cs=srgb&dl=fight-fist-hand-635356.jpg&fm=jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 170px;
+    width: 170px;
+    margin-left: 10px;
+    margin-top: 10px;
+    float: left;
+}
+.nameplates {
+    text-align: center;
+    background: #4aaaa5;
+    margin-top: 80%;
+    height: 17%;
+    width: 100%;
+    color: white;
 }
