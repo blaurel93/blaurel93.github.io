@@ -1,157 +1,136 @@
+body {
+    margin: 0;
+    background: url(https://images.unsplash.com/photo-1558346648-9757f2fa4474?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+}
 /*-- HEADER --*/
 header {
     background: #ffffff;
-    padding: 0px;
-    float: left;
     width: 100%;
-    margin-top: 0px;
-
+    height: 70px;
+    border-bottom: 3px solid #cccccc;
 }
-#blaise {
+#headername {
     background: #4aaaa5;
-    color: white;
+    width: 15%;
+    height: 50px;
+    padding: 10px;
+    margin-left: 15.5%;
     float: left;
-    width: 13%;
-    padding: 20px;
     text-align: center;
     font-size: 20px;
-    font-display: bold;
+    color: #ffffff
+}
+#namename {
+    padding-bottom: 15px;
+}
+#nav {
+    background: #ffffff;
+    width: 15%;
+    height: 40px;
+    padding: 5px;
+    margin-left: 68.5%;
+    padding-top: 25px;
+    
+}
+.navbar {
+    background: #ffffff;
+    width: 22%;
+    height: 10px;
+    padding: 7px;
+    margin-left: 7px;
+    float: left;
+
 }
 a {
-    color: #777777;
     text-decoration: none;
+    color: #666666
 }
-#port {
-    color: #777777;
-    text-decoration-line: none;
-    float: right;
-    width: 10%;
-    text-align: left;
-    padding:10px;
-    margin-top: 10px;
+a:hover {
+    color: black;
+    font-size: 18px;
 }
-#contact {
-    color: #777777;
-    text-decoration-line: none;
-    float: right;
-    
-    width: 10%;
-    text-align: center;
-    padding: 10px;
-    margin-top: 10px;
-}
-#about {
-    color: #777777;
-    text-decoration: none;
-    float: right;
-    width:10%;
-    text-align: right;
-    padding: 10px;
-    margin-top: 10px;
-    
-}
-nav {
-    height: 100%;
-    margin: 0 auto;
-    width: 960px;
-    padding: 0;
-    border: 0;
-    font-size: 100%;
-
-    
-}
-
 /*-- HEADER --*/
-/*-- MAINBOX --*/
-body {
-    clear: both;
-    width: 100%;
-    margin-bottom: 1px;
-    margin-left: auto;
-    margin-top: auto;
-}
-#mainbox {
-    clear: both;
-    overflow: auto;
-    border-color: #dddddd;
-    float: left;
-    width: 100%;
-    height: 600px;
-    margin-bottom: 10px;
-    
-    border-top: #666666 2px solid;
-    
-    
-}
-#secondbox {
-    background: #ffffff;
-    margin-top: 30px;
-    margin-left: 222px;
-    float: left;
-    width: 960px;
-    height: 530px;
-    
 
-}
-.greyline {
-    background: #777777;
+/*-- MAIN BODY --*/
+#bigbox {
+    background: white;
+    width: 960px;
+    height: 660px;
     padding: 1px;
-    width: 97%;
-    margin-left: 10px;
-    margin-bottom: 10px;
-    margin-right: 10px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
 }
-.myname {
-    color: #4aaaa5;
-    text-decoration: none;
-    margin-left: 10px;
+#littlebox {
+    background: #ffffff;
+    width: 920px;
+    height: 620px;
+    padding: 1px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    
+}
+#textbox {
+    background: white;
+    width: 900px;
+    height: 30px;
+    padding: 10px;
+    border-bottom: 3px solid #cccccc;
+    text-align: left;
+    padding-bottom: 20px;
+    
+}
+#name {
+    font-size: 36px;
+    margin-top: 1px;
+    color: #4aaaa5
 }
 #pictureofme {
-    float: left;
-    margin: 10px;
+    float:left;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
 }
-p { 
+#textindex {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
     margin-left: 10px;
     margin-right: 10px;
-    font-size: 20px;
-    color: #777777
+    color: #666666;
+    margin-top: 10px;
 }
-/*-- MAINBOX --*/
+.buttons {
+    margin-left: 10px;
+}
+/*-- MAIN BODY --*/
 /*-- FOOTER --*/
 footer {
     margin-top: auto;
-    text-align: center;
-    bottom: 0;
-    width: 100%;
-    z-index: 0;
-    background-color: #666666;
-    color: #ffffff;
-    height: 60px;
-    border-top: 5px solid #4aaaa5;
-    clear: both;
+            text-align: center;
+            bottom: 0;
+            width: 100%;
+            z-index: 0;
+            background-color: #666666;
+            color: #ffffff;
+            height: 60px;
+            border-top: 5px solid #4aaaa5;
+            clear: both;
 }
-#littlewhite {
-    color: white;
-}
-
 /*-- FOOTER --*/
 
-/*-- CONTACT PAGE --*/
-.buttons {
-    margin-left: 10px;
-    margin-top: 30px;
-}
 
-/*-- CONTACT PAGE --*/
+
 
 /*-- PORTFOLIO PAGE --*/
-#portfoliobox {
-    background: white;
-    padding: 5px;
-    margin-left: 10px;
-    margin-right: 10px;
-    height: 430px;
-}
 .portboxone {
     background-image: url(https://images.pexels.com/photos/1122868/pexels-photo-1122868.jpeg?cs=srgb&dl=action-adult-adventure-1122868.jpg&fm=jpg); 
     background-repeat: no-repeat;
@@ -159,7 +138,8 @@ footer {
     height: 170px;
     width: 170px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
+    margin-right: 20px;
     float: left;
 }
 .portboxtwo {
@@ -169,7 +149,7 @@ footer {
     height: 170px;
     width: 170px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 20px;
     float: left;
 }
 .portboxthree {
@@ -179,8 +159,10 @@ footer {
     height: 170px;
     width: 170px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
+    margin-right: 20px;
     float: left;
+    clear: both;
 }
 .portboxfour {
     background-image: url(https://images.pexels.com/photos/2265487/pexels-photo-2265487.jpeg?cs=srgb&dl=app-apple-business-2265487.jpg&fm=jpg);
@@ -189,7 +171,7 @@ footer {
     height: 170px;
     width: 170px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     float: left;
 }
 .portboxfive {
@@ -199,8 +181,10 @@ footer {
     height: 170px;
     width: 170px;
     margin-left: 10px;
-    margin-top: 10px;
+    margin-top: 15px;
     float: left;
+    clear: both;
+    overflow: auto;
 }
 .nameplates {
     text-align: center;
